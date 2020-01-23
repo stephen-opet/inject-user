@@ -7,7 +7,7 @@ To start, download both the userScript.sh file and the sql.txt file. I recommend
 Next, download a copy of the wp-config.php file from the root of your WordPress installation. You should be able to do so through the host's FTP or an analogous file managment system. This file provides contains important information regarding the authorized mySQL user and table prefixes. Place this wp-config.php file in the same directory as sql.txt and userScript.sh.
 
 Then, open the program directory in bash and run the script:
-'''  $sudo ./userScript.sh '''
+```  $sudo ./userScript.sh ```
   
 A 16 digit string will be printed to the screen - this will be your user's new password. Save this password, alongside the username you preset in sql.txt.
 
